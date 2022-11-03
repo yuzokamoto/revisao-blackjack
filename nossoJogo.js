@@ -1,8 +1,8 @@
 console.clear()
 
-const isIniciarRodada = confirm("Quer iniciar uma nova rodada?")
+const isJogoAtivo = confirm("Quer iniciar uma nova rodada?")
 
-if (isIniciarRodada) {
+if (isJogoAtivo) {
     console.log("Boas vindas ao jogo de blackjack!")
 
     const cartaJogador1 = comprarCarta()
